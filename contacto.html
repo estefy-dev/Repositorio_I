@@ -58,37 +58,25 @@
 				</div>
 			</nav>
 			<!-- termina nav -->
-			<div class="medium__text fondo__color">contacto</div>
-			<form action="#"method= "post">
-				<label class="negrita" for="nombre">nombre:</label>
-				<input type="text"name= "nombre" > <br>
-				<label class="negrita" for="apellido">apellido:</label>
-				<input type="text"apellido= "apellido"> <br>
-				<label class="negrita" for="email">e-mail:</label>
-				<input type="e-mail" e-mail= "e-mail"> <br>
-				<label class="negrita"for="mayor de edad">es mayor de edad:</label>
-				<select name="mayor de edad">	
-					<option value="si">si</option>
-					<option value="no">no</option>
-				</select> <br>
+			<!-- inicia Formulario -->
+			<form class="w-75" >
+				<div class="form-group">
+					<label for="Nombre y Apellido">Nombre y Apellido</label>
+					<input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				</div>
 
-				<label class="negrita" for="novedades"> desea recibir novedades</label>	
-				<input type="checkbox"name= "novedades" value= "desea recibir novedades"> <br>	
-				<p class="negrita">dejanos tu consulta</p>
-				<textarea class="border" name="comentario" id="comentario" cols="30" rows="10"></textarea> <br>
-				<input type="submit" value="enviar formulario">
-				<input type="reset" value="limpiar formulario">
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Dejanos tu consulta</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<button class="btn btn-primary" type="submit">Submit form</button>
 			</form>
-			<ul>
-				<li>sucursales</li>
-				<li>contacto</li>
-				<li>regalos</li>
-				<li>promociones</li>
-				<li>siguenos tambien</li>
-				<li>legales</li>
-			</ul>
 
-
+			<!-- termina Formulario -->
 
 		</main>	
 
@@ -115,8 +103,8 @@
 				</div>
 
 			</div>
-		</div>
-	</footer>
+		</footer>
+	</div>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
